@@ -56,4 +56,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 - This project was created as a learning exercise for Android development.
 - Thanks to the authors of any external libraries or resources used in this project.
 
-Feel free to customize the README file according to your project's specific details and requirements.
+

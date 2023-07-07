@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back6"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN-UP"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/signup_logo"
+    android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:maxHeight="48dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:maxHeight="48dp"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:id="@+id/et_confirm_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textColorHint="@color/white"
+        android:maxHeight="48dp"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:imeOptions="actionDone" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:backgroundTint="@color/purple_200"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

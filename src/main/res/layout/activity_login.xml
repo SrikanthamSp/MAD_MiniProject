@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back6"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:paddingBottom="10dp"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="229dp"
+        android:layout_gravity="center"
+        android:src="@drawable/login_logo"
+        android:paddingTop="10dp"/>
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="@color/white"
+        android:maxHeight="48dp"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:maxHeight="48dp"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:imeOptions="actionDone" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="Log In" />
+
+    <TextView
+        android:id="@+id/newUserTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New User? Sign Up"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

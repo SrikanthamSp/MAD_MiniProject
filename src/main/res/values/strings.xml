@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EMPLOYEE MONTHLY SALARY</string>
+    <string name="emptitle">EMPLOYEE SALARY CALCULATOR</string>
+    <string name="empname">EMPLOYEE NAME</string>
+    <string name="empsalary">EMPLOYEE SALARY</string>
+    <string name="emptax">EMPLOYEE TAX</string>
+    <string name="netsal">EMPLOYEE NETSALARY</string>
+    <string name="btnok">Ok</string>
+    <string name="btncancel">cancel</string>
+    <string name="btn3">TAX DEDUCTION DETAILS</string>
+    <string name="btn4">RETURN</string>
+    <string name="login_activity_title">Login</string>
+    <string name="view_activity_title">View Activity</string>
+    <string name="update_activity_title">Update Activity</string>
+    <string name="signup_activity_title">Signup Activity</string>
+    <string name="main_activity_title">Main Activity</string>
+
+</resources>
